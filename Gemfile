@@ -66,3 +66,5 @@ gem 'haml'
 gem 'sidekiq'
 gem "sidekiq-cron", "~> 1.1"
 gem 'httparty'
+gem 'foreman'
+
