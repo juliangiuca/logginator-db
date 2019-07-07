@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: logginator-db_production
-  username: logginator-db
-  password: <%= ENV['LOGGINATOR-DB_DATABASE_PASSWORD'] %>
+  #username: logginator-db
+  #password: <%= ENV['LOGGINATOR-DB_DATABASE_PASSWORD'] %>

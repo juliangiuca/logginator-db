@@ -4,6 +4,6 @@ class Website < ApplicationRecord
   private
   def re_cron
     logger.info('re_cron called')
-    Sidekiq::Cron::Job.create(name: 'Hard worker - every 5min', cron: '*/1 * * * *', class: 'HitNodeJob') # execute at every 5 minutes, ex: 12:05, 12:10, 12:15...etc
+    Sidekiq::Cron::Job.create(name: 'Hard worker - every 1min', cron: '*/1 * * * *', class: 'HitNodeJob', args: {url: self.url}) # execute at every 1 minutes
   end
 end
