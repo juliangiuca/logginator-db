@@ -86,7 +86,7 @@ GEM
       nokogiri (~> 1.8)
     concurrent-ruby (1.1.5)
     connection_pool (2.2.2)
-    crass (1.0.4)
+    crass (1.0.5)
     devise (4.6.2)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -98,6 +98,7 @@ GEM
       tzinfo
     execjs (2.7.0)
     ffi (1.11.1)
+    foreman (0.86.0)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -145,7 +146,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
-    loofah (2.2.3)
+    loofah (2.3.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -163,7 +164,7 @@ GEM
     msgpack (1.3.0)
     multi_xml (0.6.0)
     nio4r (2.3.1)
-    nokogiri (1.10.3)
+    nokogiri (1.10.5)
       mini_portile2 (~> 2.4.0)
     orm_adapter (0.5.0)
     pg (1.1.4)
@@ -295,6 +296,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   devise
+  foreman
   haml
   httparty
   jbuilder (~> 2.5)
