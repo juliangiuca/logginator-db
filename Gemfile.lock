@@ -98,6 +98,7 @@ GEM
       tzinfo
     execjs (2.7.0)
     ffi (1.11.1)
+    foreman (0.87.1)
     formtastic (3.1.5)
       actionpack (>= 3.2.13)
     formtastic_i18n (0.6.0)
@@ -170,7 +171,7 @@ GEM
     public_suffix (3.1.1)
     puma (3.12.1)
     raabro (1.1.6)
-    rack (2.0.7)
+    rack (2.2.3)
     rack-protection (2.0.5)
       rack
     rack-test (1.1.0)
@@ -295,6 +296,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   chromedriver-helper
   devise
+  foreman
   haml
   httparty
   jbuilder (~> 2.5)
